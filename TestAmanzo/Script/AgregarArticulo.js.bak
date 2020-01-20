@@ -1,7 +1,11 @@
 ﻿var functions = require('functions');
+let url = "http://www.amazon.com";
 
 function main()
 {
-  var url = Browsers.btChrome;
+
+  functions.IniciarBrowser(url);
+
+  
   
 }

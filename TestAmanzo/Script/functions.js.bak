@@ -1,7 +1,10 @@
-﻿
+﻿var pages = Sys.Browser("*").Page("*");
+
 function IniciarBrowser(url)
 {
+  pages.Wait();
   Browsers.Item(btChrome).Run(url);
+  
 }
 
 
