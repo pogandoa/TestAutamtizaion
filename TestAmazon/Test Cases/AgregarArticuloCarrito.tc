@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Agregar un articulo en el carrito de Amazon</description>
-   <name>AgregarArticuloCarrito</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8dab3bee-9474-4a4e-9720-94c1e293f276</testCaseGuid>
-</TestCaseEntity>
