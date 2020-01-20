@@ -3,9 +3,8 @@ let url = "http://www.amazon.com";
 
 function main()
 {
-
   functions.IniciarBrowser(url);
 
-  
+  functions.setText(url,,"mundo");
   
 }

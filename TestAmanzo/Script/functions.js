@@ -182,3 +182,5 @@ module.exports.waitSeg = waitSeg;
 module.exports.ponerTexto = ponerTexto;
 module.exports.selectionTexto = selectionTexto;
 module.exports.verificarText = verificarText;
+
+module.exports.setText = setText

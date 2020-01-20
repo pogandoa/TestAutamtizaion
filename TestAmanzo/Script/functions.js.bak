@@ -126,6 +126,17 @@ function ponerTexto(ObjName,ObjType,text)
   page.Wait();
 }
 
+
+function setText(url,xpath, texto){
+  var page = Sys.Browser().page(url);
+  page.FindChildByXPath(xpath).setText(texto);
+
+}
+
+function darClic(url, xpa){
+
+}
+
 /**
 * Realiza un Click a un elemento de un ComboBox.
 * @param {String}

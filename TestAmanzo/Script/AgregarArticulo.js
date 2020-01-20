@@ -5,6 +5,6 @@ function main()
 {
   functions.IniciarBrowser(url);
 
-  functions.ponerTexto();
+  functions.setText(url,"//input[@id='twotabsearchtextbox']","mundo");
   
 }
