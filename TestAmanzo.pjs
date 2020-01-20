@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{11440754-B92E-487F-819C-377107DFB73D}">
-	<children />
+	<children>
+		<child name="TestAmanzo" key="{96C8FF24-4855-4257-B209-E58ABD7BE420}" path="TestAmanzo\TestAmanzo.mds" />
+	</children>
 	<testItems key="{76DC30BA-FD5D-40AC-B760-DC0CED50958F}">
-		<children />
+		<children>
+			<testItem key="{96C8FF24-4855-4257-B209-E58ABD7BE420}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
 	</testItems>
 	<variables key="{9EED9A1D-8DCC-4497-A8C6-6E1054A6D19B}">
 		<data Version="3" />
