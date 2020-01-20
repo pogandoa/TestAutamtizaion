@@ -1,0 +1,7 @@
+﻿var functions = require('functions');
+
+function main()
+{
+  var url = Browsers.btChrome;
+  
+}

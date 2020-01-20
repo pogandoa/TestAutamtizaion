@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="functions" key="{B87130B3-7F4A-4B9A-97E5-825C0E3D500B}" path="functions.js" />
+		<child name="AgregarArticulo" key="{53350419-B3CD-4DF5-9681-A4E5877601A7}" path="AgregarArticulo.js" />
+	</children>
+</Root>
