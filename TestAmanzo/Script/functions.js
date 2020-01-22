@@ -108,15 +108,15 @@ function waitSeg(seg)
 * @param {String}
 * @author: Pedro Ogando
 **/
-function ponerTexto(ObjName,ObjType,text)
+function ponerTexto(xpath,text)
 {
      
   let page = Sys.Browser("*").Page("*");
-  let obj =  page.NativeWebObject.Find("id", ObjName, ObjType);
+  let obj = page.FindChildByXPath(xpath,true)  //page.NativeWebObject.Find("id", ObjName, ObjType);
   
   if(!strictEqual(obj, null)){
     // clic en el elemento que se encontró 
-    obj.value = text; 
+    obj.SetText(text); 
     
   }else{
     // If nothing was found, post a message to the log 

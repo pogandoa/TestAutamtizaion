@@ -33,15 +33,12 @@ function darClick(xpath)
   let page;
     
   page = Sys.Browser("*").Page("*"); 
-//  objClass =  page.NativeWebObject.Find("class", ObjName, ObjType);
   let obj = page.FindChildByXPath(xpath,true);
 
   if(!strictEqual(obj, null)){
-    // Buscar y da click por la clase del elemento ObjName,ObjType
-    obj.Click();
-    
-  }else{
-    // If nothing was found, post a message to the log 
+    // Buscar y da click por la clase del elemento
+    obj.Click();    
+  }else{    
      Log.Error("Nothing was found.");
   }
   page.Wait();
@@ -55,10 +52,9 @@ function darClick(xpath)
 **/
 function darClickOption(ObjName)
 {
-  let page, Obj;
-    
-  page = Sys.Browser("*").Page("*");
-  obj =  page.NativeWebObject.Find("contentText", ObjName, "label");
+
+  let page = Sys.Browser("*").Page("*");
+  let obj =  page.NativeWebObject.Find("contentText", ObjName, "label");
   
   if(!strictEqual(obj, null)){    
    obj.Click(); 
@@ -114,10 +110,9 @@ function waitSeg(seg)
 **/
 function ponerTexto(ObjName,ObjType,text)
 {
-  let page, Obj;
-    
-  page = Sys.Browser("*").Page("*");
-  obj =  page.NativeWebObject.Find("id", ObjName, ObjType);
+     
+  let page = Sys.Browser("*").Page("*");
+  let obj =  page.NativeWebObject.Find("id", ObjName, ObjType);
   
   if(!strictEqual(obj, null)){
     // clic en el elemento que se encontró 

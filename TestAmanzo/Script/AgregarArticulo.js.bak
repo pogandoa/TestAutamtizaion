@@ -9,7 +9,7 @@ function main()
   waitSeg(1);
   ponerTexto("twotabsearchtextbox","input","PlayStation 4");
   //darClick("nav-input","input");
-  darClick()
+  darClick("//div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']");
   waitSeg(5);
   
   darClickLink("PlayStation 4");
