@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="623"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object top" type="I" value="610"/>
+					<Prp name="datetime" type="D" value="43852.9753602199"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="664"/>
+					<Prp name="object bottom" type="I" value="627"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="618"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="86"/>
+					<Prp name="object name" type="S" value="NameMapping.Sys.browser.pgAmazon.panelSearch.panel.panel.panel.panel.Panel(0).Panel(0).Panel(0).Panel(0).Panel(1).Panel(1).Panel(0).Panel(1).Panel(0).Panel(0).Panel(0).Panel(0).Link(0)"/>
+					<Prp name="object right" type="I" value="705"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="86"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="43852.8086948611"/>
+			<Prp name="remarks" type="S" value="A click at point (41, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.amazon.com/s?k=PlayStation+4&amp;__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;ref=nb_sb_noss&quot;).Panel(&quot;a_page&quot;).Panel(&quot;search&quot;).Panel(1).Panel(1).Panel(0).Panel(1).Panel(0).Panel(0).Panel(0).Panel(0).Panel(1).Panel(1).Panel(0).Panel(1).Panel(0).Panel(0).Panel(0).Panel(0).Link(0)"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="767"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object top" type="I" value="81"/>
+					<Prp name="datetime" type="D" value="43852.9752297106"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="789"/>
+					<Prp name="object bottom" type="I" value="121"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="101"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageAmazon.Panel(&quot;a_page&quot;).Header(0).Panel(&quot;navbar&quot;).Panel(&quot;nav_belt&quot;).Panel(2).Panel(&quot;nav_search&quot;).Form(&quot;site_search&quot;).Panel(1).Panel(0).SubmitButton(&quot;Ir&quot;)"/>
+					<Prp name="object right" type="I" value="812"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="43852.8085644097"/>
+			<Prp name="remarks" type="S" value="A click at point (22, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.amazon.com/&quot;).Panel(&quot;a_page&quot;).Header(0).Panel(&quot;navbar&quot;).Panel(&quot;nav_belt&quot;).Panel(2).Panel(&quot;nav_search&quot;).Form(&quot;site_search&quot;).Panel(1).Panel(0).SubmitButton(&quot;Ir&quot;)"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Navigating to the https://www.amazon.com/ page."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="43852.8084883218"/>
+			<Prp name="remarks" type="S" value="URL: https://www.amazon.com/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{B87130B3-7F4A-4B9A-97E5-825C0E3D500B}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The browser is already running."/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="43852.8084515162"/>
+			<Prp name="remarks" type="S" value="Google Chrome"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>

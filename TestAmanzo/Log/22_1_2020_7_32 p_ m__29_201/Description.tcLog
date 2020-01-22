@@ -19,20 +19,20 @@
 ]>
 <Nodes version="1">
 	<Node name="root">
-		<Prp name="test count" type="I" value="0"/>
-		<Prp name="root file name" type="S" value="RootLogData.dat"/>
-		<Prp name="error test count" type="I" value="0"/>
-		<Prp name="status" type="I" value="1"/>
-		<Prp name="error count" type="I" value="0"/>
-		<Prp name="stop time" type="D" value="43850.8196805787"/>
-		<Prp name="root logdata name" type="S" value="Script Test Log [AgregarArticulo\main]"/>
-		<Prp name="completed" type="B" value="-1"/>
-		<Prp name="computer name" type="S" value="JPD3"/>
-		<Prp name="warning count" type="I" value="1"/>
+		<Prp name="stop time" type="D" value="43852.814414456"/>
 		<Prp name="test type" type="S" value="main"/>
+		<Prp name="start time" type="D" value="43852.8142268634"/>
+		<Prp name="root logdata name" type="S" value="Script Test Log [AgregarArticulo\main]"/>
 		<Prp name="warning test count" type="I" value="0"/>
+		<Prp name="error count" type="I" value="2"/>
+		<Prp name="completed" type="B" value="-1"/>
+		<Prp name="root file name" type="S" value="RootLogData.dat"/>
 		<Prp name="user name" type="S" value="REDES"/>
-		<Prp name="start time" type="D" value="43850.8191531713"/>
+		<Prp name="computer name" type="S" value="JPD3"/>
+		<Prp name="status" type="I" value="2"/>
 		<Prp name="success test count" type="I" value="0"/>
+		<Prp name="warning count" type="I" value="1"/>
+		<Prp name="error test count" type="I" value="0"/>
+		<Prp name="test count" type="I" value="0"/>
 	</Node>
 </Nodes>

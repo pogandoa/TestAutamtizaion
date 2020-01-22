@@ -1,10 +1,13 @@
-﻿var pages = Sys.Browser("*").Page("*");
-
+﻿
+/**
+* Abre el Navegador e inserta la URL
+* @param {String}
+* @author: Pedro Ogando
+**/
 function IniciarBrowser(url)
 {
-  pages.Wait();
-  Browsers.Item(btChrome).Run(url);
-  
+  Delay(3000);
+  Browsers.Item(btChrome).Run(url);  
 }
 
 
@@ -25,18 +28,17 @@ function IniciarBrowser(url)
 * @param {String}
 * @author: Pedro Ogando
 **/
-function darClick(ObjName,ObjType)
+function darClick(xpath)
 {
-  let page, Obj;
+  let page;
     
-  page = Sys.Browser("*").Page("*");
-  obj =  page.NativeWebObject.Find("id", ObjName, ObjType);
-  
+  page = Sys.Browser("*").Page("*"); 
+  let obj = page.FindChildByXPath(xpath,true);
+
   if(!strictEqual(obj, null)){
-    // and click the first element that was found 
-   obj.Click(); // Note we refer to the array item 
-  }else{
-    // If nothing was found, post a message to the log 
+    // Buscar y da click por la clase del elemento
+    obj.Click();    
+  }else{    
      Log.Error("Nothing was found.");
   }
   page.Wait();
@@ -50,14 +52,12 @@ function darClick(ObjName,ObjType)
 **/
 function darClickOption(ObjName)
 {
-  let page, Obj;
-    
-  page = Sys.Browser("*").Page("*");
-  obj =  page.NativeWebObject.Find("contentText", ObjName, "label");
+
+  let page = Sys.Browser("*").Page("*");
+  let obj =  page.NativeWebObject.Find("contentText", ObjName, "label");
   
-  if(!strictEqual(obj, null)){
-    // and click the first element that was found 
-   obj.Click(); // Note we refer to the array item 
+  if(!strictEqual(obj, null)){    
+   obj.Click(); 
   }else{
     // If nothing was found, post a message to the log 
      Log.Error("Nothing was found.");
@@ -110,32 +110,21 @@ function waitSeg(seg)
 **/
 function ponerTexto(ObjName,ObjType,text)
 {
-  let page, Obj;
-    
-  page = Sys.Browser("*").Page("*");
-  obj =  page.NativeWebObject.Find("id", ObjName, ObjType);
+     
+  let page = Sys.Browser("*").Page("*");
+  let obj =  page.NativeWebObject.Find("id", ObjName, ObjType);
   
   if(!strictEqual(obj, null)){
-    // and click the first element that was found 
-    obj.value = text; // Note we refer to the array item 
+    // clic en el elemento que se encontró 
+    obj.value = text; 
     
   }else{
     // If nothing was found, post a message to the log 
-     Log.Error("Nothing was found.");
+     Log.Error("Elemento no encontrado.");
   }
   page.Wait();
 }
 
-
-function setText(url,xpath, texto){
-  var page = Sys.Browser().page(url);
-  page.FindChildByXPath(xpath).setText(texto);
-
-}
-
-function darClic(url, xpa){
-
-}
 
 /**
 * Realiza un Click a un elemento de un ComboBox.
@@ -182,5 +171,3 @@ module.exports.waitSeg = waitSeg;
 module.exports.ponerTexto = ponerTexto;
 module.exports.selectionTexto = selectionTexto;
 module.exports.verificarText = verificarText;
-
-module.exports.setText = setText

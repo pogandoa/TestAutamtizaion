@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{53350419-B3CD-4DF5-9681-A4E5877601A7}" />
+	<data key="{53350419-B3CD-4DF5-9681-A4E5877601A7}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="25" kind="0" dateTime="43852.9400578704" objectName="Aliases.browser.pageAmazonComPlaystation4.link.textnode" objectLeft="525" objectTop="420" objectRight="621" objectBottom="439" clickPointX="578" clickPointY="430" imageFileName="tcvi34374953756810.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="31" kind="0" dateTime="43852.9402662037" objectName="Aliases.browser.pageRefSr13.buttonAgregarAlCarrito" objectLeft="783" objectTop="556" objectRight="987" objectBottom="585" clickPointX="899" clickPointY="569" imageFileName="tcvi34392812756813.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="37" kind="0" dateTime="43852.9404861111" objectName="Aliases.browser.pageRefSr13.linkAttachCloseSidesheetLink" objectLeft="974" objectTop="94" objectRight="994" objectBottom="114" clickPointX="988" clickPointY="103" imageFileName="tcvi34411234756818.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="39" kind="0" dateTime="43852.9405324074" objectName="Aliases.browser.pageRefSr13.header.textnode" objectLeft="952" objectTop="109" objectRight="1021" objectBottom="129" clickPointX="953" clickPointY="113" imageFileName="tcvi34415765756819.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>
