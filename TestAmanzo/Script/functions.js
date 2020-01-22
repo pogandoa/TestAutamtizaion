@@ -112,11 +112,12 @@ function ponerTexto(xpath,text)
 {
      
   let page = Sys.Browser("*").Page("*");
-  let obj = page.FindChildByXPath(xpath,true)  //page.NativeWebObject.Find("id", ObjName, ObjType);
+  let obj = page.NativeWebObject.Find("id", ObjName, ObjType);
   
   if(!strictEqual(obj, null)){
     // clic en el elemento que se encontró 
-    obj.SetText(text); 
+//    obj.SetText(text); 
+obj.Value = text;
     
   }else{
     // If nothing was found, post a message to the log 

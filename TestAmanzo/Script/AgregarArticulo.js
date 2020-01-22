@@ -7,7 +7,7 @@ function main()
 {
   IniciarBrowser(url);
   waitSeg(1);
-  ponerTexto("twotabsearchtextbox","input","PlayStation 4");
+  ponerTexto("//div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']","PlayStation 4");
   //darClick("nav-input","input");
   darClick("//div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']");
   waitSeg(5);
