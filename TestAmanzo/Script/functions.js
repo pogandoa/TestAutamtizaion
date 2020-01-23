@@ -44,6 +44,23 @@ function darClick(xpath)
   page.Wait();
 }
 
+function setText(xpath,text)
+{
+  let page;
+    
+  page = Sys.Browser("*").Page("*"); 
+  let obj = page.FindChildByXPath(xpath,true);
+
+  if(!strictEqual(obj, null)){
+    // Buscar y da click por la clase del elemento
+//    obj.Click(); 
+    obj.SetText(text);   
+  }else{    
+     Log.Error("Nothing was found.");
+  }
+  page.Wait();
+}
+
 
 /**
 * Realiza un Click en el Checked/Radio Button objeto
@@ -52,7 +69,6 @@ function darClick(xpath)
 **/
 function darClickOption(ObjName)
 {
-
   let page = Sys.Browser("*").Page("*");
   let obj =  page.NativeWebObject.Find("contentText", ObjName, "label");
   
@@ -108,7 +124,7 @@ function waitSeg(seg)
 * @param {String}
 * @author: Pedro Ogando
 **/
-function ponerTexto(xpath,text)
+function ponerTexto(ObjName,ObjType,text)
 {
      
   let page = Sys.Browser("*").Page("*");
@@ -117,7 +133,7 @@ function ponerTexto(xpath,text)
   if(!strictEqual(obj, null)){
     // clic en el elemento que se encontró 
 //    obj.SetText(text); 
-obj.Value = text;
+  obj.Value = text;
     
   }else{
     // If nothing was found, post a message to the log 
