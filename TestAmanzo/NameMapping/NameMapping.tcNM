@@ -3,7 +3,694 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<TypeInfo StoreCodeCompletion="1" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{347B81D7-A162-41E0-A1DB-CEACC4079358}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{E031D8C3-2AC9-450C-BC15-D8802AA51FE0}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value PropertyType="0" Value="Browser" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageAmazon" Key="{81118C68-3A8A-4F80-BAD2-973D06803103}" ParallelWalk="True">
+								<Image FileName="1746736660" Left="8" Top="80" Right="1042" Bottom="670" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://www.amazon.com/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxBuscar" Key="{31C05A94-3C2A-44CC-AA7F-AB0406882F29}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1444874505" Left="293" Top="91" Right="563" Bottom="129" />
+										<TypeInfo Item0="{44C6223F-26AF-44A0-8550-95C85D4948C6}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Textbox" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="twotabsearchtextbox" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="panelNavMain" Key="{F51AC0E0-1AF8-4E96-B040-EC3D5E39B84B}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-59247638" Left="8" Top="140" Right="1025" Bottom="179" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Panel" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="nav-main" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{85035991-35D7-451F-A92E-9FF975A48480}" ParallelWalk="True">
+												<Image FileName="-59247638" Left="8" Top="140" Right="217" Bottom="179" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{F639AA60-5BAD-4AFF-ABEF-EE03C76D851F}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-59247638" Left="11" Top="182" Right="461" Bottom="390" />
+														<TypeInfo Item0="{94FB8E91-2EC9-4A18-B5F8-425E08F6AB47}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="0" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelIssdiv3" Key="{9E21E9EC-C0C5-4978-B7EC-A6911FF5FC17}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1705695256" Left="294" Top="238" Right="607" Bottom="274" />
+										<TypeInfo Item0="{94FB8E91-2EC9-4A18-B5F8-425E08F6AB47}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Panel" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="issDiv3" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pgAmazon" Key="{52162643-8F69-450B-AAE7-87077CEA00D1}" ParallelWalk="True">
+								<Image FileName="1746736660" Left="8" Top="80" Right="1042" Bottom="670" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://www.amazon.com/s*" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelSearch" Key="{AB0058E8-EE8D-450E-B182-9B55E9D8872E}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-1332707212" Left="8" Top="-21" Right="1025" Bottom="5874" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Panel" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="search" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{4CB37C5C-C758-4BF3-B942-3E8F8338497D}" ParallelWalk="True">
+												<Image FileName="-1332707212" Left="8" Top="23" Right="1030" Bottom="5874" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{7AA39A76-F5BD-47DC-B07C-252F2E40ED0F}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-1332707212" Left="261" Top="37" Right="1019" Bottom="5874" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{F048A690-38A6-483E-A660-E9ECF242C254}" ParallelWalk="True">
+																<Image FileName="-1332707212" Left="261" Top="37" Right="1019" Bottom="5874" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Panel" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{EC4BB75A-9F1B-4E87-B587-A45664944A18}" ParallelWalk="True">
+																		<Image FileName="-1332707212" Left="261" Top="159" Right="1019" Bottom="5427" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{73E42042-1B26-4E48-9733-A56822F7DBEC}" ParallelWalk="True">
+																				<Image FileName="-1822205991" Left="261" Top="405" Right="1019" Bottom="657" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Panel" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="2" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="link" Key="{CD3DB604-DD39-4200-BB44-804E93B062A2}" ExtendedFind="True" ParallelWalk="True">
+																						<Image FileName="-1822205991" Left="525" Top="424" Right="621" Bottom="438" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value PropertyType="0" Value="Link" Type="5" />
+																							</Property>
+																							<Property Name="contentText">
+																								<Value PropertyType="0" Value="PlayStation 4" Type="5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="textnode" Key="{3CAFE4B2-EBF1-4454-B5AC-5807F2653831}" ExtendedFind="True" ParallelWalk="True">
+																								<Image FileName="-1822205991" Left="525" Top="420" Right="621" Bottom="439" />
+																								<TypeInfo Item0="{94FB8E91-2EC9-4A18-B5F8-425E08F6AB47}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value PropertyType="0" Value="TextNode" Type="5" />
+																									</Property>
+																									<Property Name="contentText">
+																										<Value PropertyType="0" Value="PlayStation 4" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCar" Key="{18ECBDB0-CD46-4D51-85D2-032DAB2FCA28}" ParallelWalk="True">
+								<Image FileName="1746736660" Left="8" Top="80" Right="1042" Bottom="670" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://www.amazon.com/-/es/3003348-PlayStation-4/dp/B071CV8CG2/ref*" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelAPage" Key="{81F19993-8A67-48E9-A9B4-7E36C184A5E2}" ParallelWalk="True">
+										<Image FileName="-368905693" Left="8" Top="80" Right="1025" Bottom="8105" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Panel" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="a-page" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelDp" Key="{DC7A9724-1381-4FD3-B8B1-8C4EC1400A68}" ParallelWalk="True">
+												<Image FileName="-368905693" Left="8" Top="187" Right="1025" Bottom="7053" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="dp" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelDpContainer" Key="{5BA16862-53FA-4DE1-BF57-E18433110EEA}" ParallelWalk="True">
+														<Image FileName="-368905693" Left="8" Top="221" Right="1025" Bottom="7053" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+															<Property Name="idStr">
+																<Value PropertyType="0" Value="dp-container" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelPpd" Key="{8827642A-38FF-48E8-96DC-4C127297CA46}" ParallelWalk="True">
+																<Image FileName="-368905693" Left="26" Top="221" Right="1007" Bottom="888" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Panel" Type="5" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value PropertyType="0" Value="ppd" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelCentercol" Key="{7CC15A28-5105-42AB-A1EE-704F57F891BD}" ParallelWalk="True">
+																		<Image FileName="-368905693" Left="379" Top="221" Right="737" Bottom="888" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="idStr">
+																				<Value PropertyType="0" Value="centerCol" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panelTitleFeatureDiv" Key="{C6E66E80-637E-4AE8-B134-22072D52A382}" ParallelWalk="True">
+																				<Image FileName="-368905693" Left="379" Top="221" Right="737" Bottom="248" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Panel" Type="5" />
+																					</Property>
+																					<Property Name="idStr">
+																						<Value PropertyType="0" Value="title_feature_div" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panelTitlesection" Key="{8DE56C57-AA98-4D17-A183-C331F992A2C1}" ParallelWalk="True">
+																						<Image FileName="-368905693" Left="379" Top="221" Right="737" Bottom="248" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value PropertyType="0" Value="Panel" Type="5" />
+																							</Property>
+																							<Property Name="idStr">
+																								<Value PropertyType="0" Value="titleSection" Type="5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="textnodeProducttitle" Key="{75EB52B9-62F5-40A6-8C63-6FB3320F426A}" ParallelWalk="True">
+																								<Image FileName="-368905693" Left="379" Top="221" Right="506" Bottom="247" />
+																								<TypeInfo Item0="{94FB8E91-2EC9-4A18-B5F8-425E08F6AB47}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value PropertyType="0" Value="TextNode" Type="5" />
+																									</Property>
+																									<Property Name="idStr">
+																										<Value PropertyType="0" Value="productTitle" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="panelAttachAddedToCartMessage" Key="{28F1E27D-1947-4F6E-A490-5F2D47EFA1D0}" ExtendedFind="True" ParallelWalk="True">
+																		<Image FileName="773515068" Left="364" Top="90" Right="994" Bottom="206" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="idStr">
+																				<Value PropertyType="0" Value="attach-added-to-cart-message" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="textnode" Key="{F78C3438-7627-4FB3-9DB9-347C214F8E01}" ExtendedFind="True" ParallelWalk="True">
+																				<Image FileName="773515068" Left="416" Top="104" Right="568" Bottom="129" />
+																				<TypeInfo Item0="{94FB8E91-2EC9-4A18-B5F8-425E08F6AB47}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="TextNode" Type="5" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value PropertyType="0" Value="Agregado al carrito" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="textnodeAttachAccessoryCartSubto" Key="{359360D6-A8FC-41E4-8DAE-122538702849}" ExtendedFind="True" ParallelWalk="True">
+																				<Image FileName="773515068" Left="823" Top="113" Right="881" Bottom="132" />
+																				<TypeInfo Item0="{94FB8E91-2EC9-4A18-B5F8-425E08F6AB47}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="TextNode" Type="5" />
+																					</Property>
+																					<Property Name="idStr">
+																						<Value PropertyType="0" Value="attach-accessory-cart-subtotal" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="header" Key="{920E025B-A0FB-4F89-A2D3-107AB477916E}" ParallelWalk="True">
+												<Image FileName="-1162279228" Left="8" Top="80" Right="1025" Bottom="179" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Header" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textnode" Key="{A02A69DD-A6F6-4F09-98E0-3D6BD0A30EAE}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-1162279228" Left="952" Top="109" Right="1021" Bottom="129" />
+														<TypeInfo Item0="{94FB8E91-2EC9-4A18-B5F8-425E08F6AB47}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="TextNode" Type="5" />
+															</Property>
+															<Property Name="contentText">
+																<Value PropertyType="0" Value="Carrito" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="buttonAgregarAlCarrito" Key="{DD272726-68AE-4FB9-A478-830A9E963EC1}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-1600133011" Left="783" Top="556" Right="987" Bottom="585" />
+										<TypeInfo Item0="{6A918926-8062-4B91-AD56-C67670330EE1}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="add-to-cart-button" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="linkAttachCloseSidesheetLink" Key="{5EF7FF3E-513A-4C9F-ABF1-9B3AF8AF85D5}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="623327823" Left="974" Top="94" Right="994" Bottom="114" />
+										<TypeInfo Item0="{94FB8E91-2EC9-4A18-B5F8-425E08F6AB47}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="attach-close_sideSheet-link" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageView" Key="{B37AB2E9-CEF2-40D5-AD40-E392ED31EFEE}" ParallelWalk="True">
+								<Image FileName="1746736660" Left="8" Top="80" Right="1042" Bottom="670" />
+								<TypeInfo Item0="{63691BDC-1E50-4982-9292-94CA6A1AC1F5}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://www.amazon.com/-/es/gp/cart/view.html*" Type="5" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{E031D8C3-2AC9-450C-BC15-D8802AA51FE0}">
+			<Child Name="pageAmazon" Owner="{81118C68-3A8A-4F80-BAD2-973D06803103}">
+				<Child Name="txtBuscar" Owner="{31C05A94-3C2A-44CC-AA7F-AB0406882F29}" />
+				<Child Name="panel" Owner="{F639AA60-5BAD-4AFF-ABEF-EE03C76D851F}" />
+				<Child Name="panelIssdiv3" Owner="{9E21E9EC-C0C5-4978-B7EC-A6911FF5FC17}" />
+			</Child>
+			<Child Name="pgAmazon" Owner="{52162643-8F69-450B-AAE7-87077CEA00D1}">
+				<Child Name="link" Owner="{CD3DB604-DD39-4200-BB44-804E93B062A2}">
+					<Child Name="textnode" Owner="{3CAFE4B2-EBF1-4454-B5AC-5807F2653831}" />
+				</Child>
+			</Child>
+			<Child Name="pageCar" Owner="{18ECBDB0-CD46-4D51-85D2-032DAB2FCA28}">
+				<Child Name="lblArticulo" Owner="{75EB52B9-62F5-40A6-8C63-6FB3320F426A}" />
+				<Child Name="labelVerificado" Owner="{F78C3438-7627-4FB3-9DB9-347C214F8E01}" />
+				<Child Name="lblMonto" Owner="{359360D6-A8FC-41E4-8DAE-122538702849}" />
+				<Child Name="header" Owner="{920E025B-A0FB-4F89-A2D3-107AB477916E}">
+					<Child Name="textnode" Owner="{A02A69DD-A6F6-4F09-98E0-3D6BD0A30EAE}" />
+				</Child>
+				<Child Name="btnAgregarCarrito" Owner="{DD272726-68AE-4FB9-A478-830A9E963EC1}" />
+				<Child Name="linkCerrar" Owner="{5EF7FF3E-513A-4C9F-ABF1-9B3AF8AF85D5}" />
+			</Child>
+			<Child Name="pageView" Owner="{B37AB2E9-CEF2-40D5-AD40-E392ED31EFEE}" />
+		</Child>
+	</LogicalNodes>
+	<TypeInfo StoreCodeCompletion="1">
+		<Child Hash="707330344" Key="{44C6223F-26AF-44A0-8550-95C85D4948C6}">
+			<Data Properties="47284EB08BD833469CD53ADD4F2A95DEUFFFFFFFFFFFFFFFFV4LAZZY">
+				<FunctionDescriptions>
+					<Child Name="SetText" Doc="Enters text in the text box." IsBasic="True" Param0="Text" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Text" IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="wText" IsBasic="True" Data="ZI4L2L4ZO8Z04L">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-799264832" Key="{94FB8E91-2EC9-4A18-B5F8-425E08F6AB47}">
+			<Data Properties="37D5CF8153EC774B8691B790325B2762UFFFFFFFFFFFFFFFFV4L7ZZY">
+				<FunctionDescriptions>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="116893818" Key="{6A918926-8062-4B91-AD56-C67670330EE1}">
+			<Data Properties="CCE19FD6B873E549AFD522277FA19BFCUFFFFFFFFFFFFFFFFV4L8ZZY">
+				<FunctionDescriptions>
+					<Child Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-1187879528" Key="{63691BDC-1E50-4982-9292-94CA6A1AC1F5}">
+			<Data Properties="9532C17217847345AD56A0777D9563BEUFFFFFFFFFFFFFFFFV4L8ZZY">
+				<FunctionDescriptions>
+					<Child Name="Close" Doc="Closes a page open in the browser." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+	</TypeInfo>
 </Root>
